@@ -1,0 +1,111 @@
+{
+  "kind": "aggregate evidence and source snapshot; no individual records",
+  "source_manifest_sha256": "24822b1b92e51faf2da7909bc15ddc514e5a102268cb7f8d180ae5d642bd1beb",
+  "source_manifest_schema": "v4-s9b-result-manifest-3-final",
+  "holdout": {
+    "customers": 30000,
+    "development_customers": 15000,
+    "development_overlap": 0,
+    "monthly_rows": 361427,
+    "valid_adjacent_pairs": 330366,
+    "external_validation": false
+  },
+  "files": [
+    {
+      "public_path": "results/final_period_metrics.csv",
+      "source_path": "v4/outputs/s9b_locked/final_period_metrics.csv",
+      "sha256": "b91561a550716f01033a3190ecd45aa08b1c9ea1326114bd942d66856aa13e0e",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/temporal_metrics.csv",
+      "source_path": "v4/outputs/s9b_locked/temporal_metrics.csv",
+      "sha256": "0045de87d4b4a8be82c9a533bcb7a9898b7c5a7874aa9838db60435d8d460b7e",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/paired_bootstrap_summary.csv",
+      "source_path": "v4/outputs/s9b_locked/paired_bootstrap_summary.csv",
+      "sha256": "084d842c08caebd87072e10c35704a940354d6525274253d68e8b4150a309d3f",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/development_to_holdout_comparison.csv",
+      "source_path": "v4/outputs/s9b_locked/development_to_holdout_comparison.csv",
+      "sha256": "24ac3e69165a701fcfd5226925a806a95cfd04faecb789d2877b6bf16754742a",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/state_layer_counts.csv",
+      "source_path": "v4/outputs/s9b_locked/state_layer_counts.csv",
+      "sha256": "702ba5cd34e12a0be357b5bb03f669b7e9fa74a979f6b4a0c7371950eac89abb",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/state_transportability.csv",
+      "source_path": "v4/outputs/s9b_locked/state_transportability.csv",
+      "sha256": "455716ac8f8e7003406b63d44437ef98ae6f1398586f646f2d8e9bba56696f1c",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/reliability_curve.csv",
+      "source_path": "v4/outputs/s9b_locked/reliability_curve.csv",
+      "sha256": "c76e0aec7e3b3a2c30ac04351c4be8042812c0b3e45b2ca82435414eace9ac61",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "results/frozen_acceptance_result.json",
+      "source_path": "v4/outputs/s9b_locked/frozen_acceptance_result.json",
+      "sha256": "8675582337b686283c84c7de6ac4539b4520455fece16a500b7c89e4fcf5e974",
+      "matches_frozen_manifest": true
+    },
+    {
+      "public_path": "research_reference/adaptive_tr_core.py",
+      "source_path": "v4/src/adaptive_tr_core.py",
+      "sha256": "7b079dc93c46c85f56a66e705a628e6e8c81e6d401d3d54dc4a66a1240da6207",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/adaptive_tr_s6c.py",
+      "source_path": "v4/src/adaptive_tr_s6c.py",
+      "sha256": "8d9263b1705037ec730c746e0ea6e110f963a822b1906069448d46bc3c51fedf",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/adaptive_tr_experiment.py",
+      "source_path": "v4/src/adaptive_tr_experiment.py",
+      "sha256": "94b5dedda69a20f0f713ee7840ac9c080db16a615a5c4e2812cd81256fc4ba46",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/state_index_s2c.py",
+      "source_path": "v4/src/state_index_s2c.py",
+      "sha256": "2b26dc1902c053507cd24bb40d7ba5ad75ef459246e6db2d17167bd99820d354",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/behavior_index.py",
+      "source_path": "03_代码/src/v3_1/behavior_index.py",
+      "sha256": "9f96be8a8f568989756b027e793ed82fc1f75f16f81ac8a24f6dc441961b801d",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/sgtr_s6d.py",
+      "source_path": "v4/src/sgtr_s6d.py",
+      "sha256": "e5e9637a82ca1d7894602df86aaeff4af9097fddecf734815f67de6315636be2",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/sgtr_s7.py",
+      "source_path": "v4/src/sgtr_s7.py",
+      "sha256": "ee11bbcd46566c7cff46e50041b12bef2bd91e2e3e15fa96f105d83da9dd5373",
+      "export": "byte-identical source snapshot"
+    },
+    {
+      "public_path": "research_reference/dynamic_shap_s8.py",
+      "source_path": "v4/src/dynamic_shap_s8.py",
+      "sha256": "b8a7e5f3dc7eb2d502c0a0ede7b6e7dd58128b8d459cd9ac42250aba29380abc",
+      "export": "byte-identical source snapshot"
+    }
+  ]
+}

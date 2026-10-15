@@ -1,0 +1,206 @@
+{
+  "release": "0.1.0",
+  "purpose": "public portfolio source and aggregate evidence",
+  "license": "MIT code",
+  "customer_level_data_included": false,
+  "frozen_models_included": false,
+  "original_git_history_included": false,
+  "local_tests_passed": 14,
+  "files": [
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 440,
+      "sha256": "01f11ce2de5ed7838b6075ad4f9b8f57d7254f9a116ec93a9d1cc90e34c3a566"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 236,
+      "sha256": "30cb05e556cd39fa74893aa11821b7226ec8e2f12e1d9fbaa74ecd831f2c5347"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 728,
+      "sha256": "949ec98d1313848019d8cb51b1ac00f6fc3d8e082ce88fc571e008787038e7a7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "c7d1e3a7b242d625f1d8933870c0380389c5d3207cb040b4f761d3efc6f7e257"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 741,
+      "sha256": "7a871266dbc485b7a5b9f962a4dc9401d6dba70b690682b9c5e755da72cda798"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6614,
+      "sha256": "c50ec37d5247cdd86d7669106f566898e6f29fb91b06079eb56898739b4a2cd4"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 4583,
+      "sha256": "170e203bab707281835a3cf157b30bbae3fbfdc256a070d34d8e426475909c8a"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 524,
+      "sha256": "b950330006b1f04aa4c04f7d0047328e2f5d15bde2def8e06cde53a677829afd"
+    },
+    {
+      "path": "assets/effect_comparison.png",
+      "bytes": 77546,
+      "sha256": "5fd056e67eeb77768d482629f6dd02d2dca059168f29428c864bc71957e73a19"
+    },
+    {
+      "path": "docs/interview-guide.zh-CN.md",
+      "bytes": 4726,
+      "sha256": "852fbb5c18f03646cfb7447274604ed0d36be37f60defbbd2b41cf3b846cda3a"
+    },
+    {
+      "path": "docs/method.md",
+      "bytes": 6582,
+      "sha256": "fb4695c004585c2f4754b91479b64a51ccfc43f04af4c002be1596327d7e00a1"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 3736,
+      "sha256": "2ec280b3ee0110f798575295bb9894abed24c3fa7bfb098adb4592422638dee8"
+    },
+    {
+      "path": "docs/results.md",
+      "bytes": 4098,
+      "sha256": "c4411cfeb204f8841c1098b4026a1e439bc16fb5e7804008c27d05efac0e1892"
+    },
+    {
+      "path": "examples/synthetic_demo.py",
+      "bytes": 1514,
+      "sha256": "c2986f73a97be4eba20cb4ea4b7958e8e71e5807aaf314f884f05999b7813bd5"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 354,
+      "sha256": "1ef35972a9a6496b3a5551e84c595f4903838a4c1940fcfe2cef8a1a845c830c"
+    },
+    {
+      "path": "research_reference/README.md",
+      "bytes": 1518,
+      "sha256": "3281736537f03e3b521cf5bb35322079406db9534beaf82b77ab162d27340393"
+    },
+    {
+      "path": "research_reference/adaptive_tr_core.py",
+      "bytes": 18288,
+      "sha256": "7b079dc93c46c85f56a66e705a628e6e8c81e6d401d3d54dc4a66a1240da6207"
+    },
+    {
+      "path": "research_reference/adaptive_tr_experiment.py",
+      "bytes": 33375,
+      "sha256": "94b5dedda69a20f0f713ee7840ac9c080db16a615a5c4e2812cd81256fc4ba46"
+    },
+    {
+      "path": "research_reference/adaptive_tr_s6c.py",
+      "bytes": 36792,
+      "sha256": "8d9263b1705037ec730c746e0ea6e110f963a822b1906069448d46bc3c51fedf"
+    },
+    {
+      "path": "research_reference/behavior_index.py",
+      "bytes": 9300,
+      "sha256": "9f96be8a8f568989756b027e793ed82fc1f75f16f81ac8a24f6dc441961b801d"
+    },
+    {
+      "path": "research_reference/dynamic_shap_s8.py",
+      "bytes": 53562,
+      "sha256": "b8a7e5f3dc7eb2d502c0a0ede7b6e7dd58128b8d459cd9ac42250aba29380abc"
+    },
+    {
+      "path": "research_reference/sgtr_s6d.py",
+      "bytes": 28197,
+      "sha256": "e5e9637a82ca1d7894602df86aaeff4af9097fddecf734815f67de6315636be2"
+    },
+    {
+      "path": "research_reference/sgtr_s7.py",
+      "bytes": 38949,
+      "sha256": "ee11bbcd46566c7cff46e50041b12bef2bd91e2e3e15fa96f105d83da9dd5373"
+    },
+    {
+      "path": "research_reference/state_index_s2c.py",
+      "bytes": 16049,
+      "sha256": "2b26dc1902c053507cd24bb40d7ba5ad75ef459246e6db2d17167bd99820d354"
+    },
+    {
+      "path": "results/development_to_holdout_comparison.csv",
+      "bytes": 1453,
+      "sha256": "24ac3e69165a701fcfd5226925a806a95cfd04faecb789d2877b6bf16754742a"
+    },
+    {
+      "path": "results/final_period_metrics.csv",
+      "bytes": 673,
+      "sha256": "b91561a550716f01033a3190ecd45aa08b1c9ea1326114bd942d66856aa13e0e"
+    },
+    {
+      "path": "results/frozen_acceptance_result.json",
+      "bytes": 376,
+      "sha256": "8675582337b686283c84c7de6ac4539b4520455fece16a500b7c89e4fcf5e974"
+    },
+    {
+      "path": "results/paired_bootstrap_summary.csv",
+      "bytes": 3686,
+      "sha256": "084d842c08caebd87072e10c35704a940354d6525274253d68e8b4150a309d3f"
+    },
+    {
+      "path": "results/provenance.json",
+      "bytes": 4763,
+      "sha256": "dc1f85eb9b98751e1e2249b4661e48194b2a8eeb2c37d2a563253046c07579c3"
+    },
+    {
+      "path": "results/reliability_curve.csv",
+      "bytes": 3899,
+      "sha256": "c76e0aec7e3b3a2c30ac04351c4be8042812c0b3e45b2ca82435414eace9ac61"
+    },
+    {
+      "path": "results/state_layer_counts.csv",
+      "bytes": 446,
+      "sha256": "702ba5cd34e12a0be357b5bb03f669b7e9fa74a979f6b4a0c7371950eac89abb"
+    },
+    {
+      "path": "results/state_transportability.csv",
+      "bytes": 1341,
+      "sha256": "455716ac8f8e7003406b63d44437ef98ae6f1398586f646f2d8e9bba56696f1c"
+    },
+    {
+      "path": "results/temporal_metrics.csv",
+      "bytes": 590,
+      "sha256": "0045de87d4b4a8be82c9a533bcb7a9898b7c5a7874aa9838db60435d8d460b7e"
+    },
+    {
+      "path": "scripts/check_public_bundle.py",
+      "bytes": 3541,
+      "sha256": "0f00748aff5307fa10121e1eb71397263312205f9684e090acbb6d712251d9f9"
+    },
+    {
+      "path": "scripts/render_results.py",
+      "bytes": 1734,
+      "sha256": "3297c48e08fd735fef22b9ad130930ec0c798d4400001f4b4bee1bd2b132b6ad"
+    },
+    {
+      "path": "src/sgtr_demo/__init__.py",
+      "bytes": 277,
+      "sha256": "ce3626d6080bafe5bef1303e564d5b1db78d3de85e93220798bb8b0a31845afe"
+    },
+    {
+      "path": "src/sgtr_demo/core.py",
+      "bytes": 4897,
+      "sha256": "f2100833771d2856d220dd1a927069eae1161b826ee280fe0e504703181320f8"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 3398,
+      "sha256": "19fafda7d806816a638adf5ced9fb2dc5dc16726a4dbfc62e6338cf5b239bd00"
+    },
+    {
+      "path": "tests/test_research_equivalence.py",
+      "bytes": 1841,
+      "sha256": "40223a238f3b0be8da0c97992d331d3f7d53bf9164dbc36d85c9d7b8c252b37c"
+    }
+  ]
+}

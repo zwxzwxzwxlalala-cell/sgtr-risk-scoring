@@ -1,0 +1,12 @@
+{
+  "classification": "Core replicated",
+  "checks": {
+    "stable_reduction_gt_0.20": true,
+    "high_response_retention_ge_0.80": true,
+    "auc_sgtr_minus_m0_ge_minus_0.003": true,
+    "platt_logloss_relative_worsening_le_0.02": true,
+    "platt_brier_relative_worsening_le_0.02": true
+  },
+  "all_core_conditions_met": true,
+  "manual_override_applied": false
+}
