@@ -53,8 +53,8 @@ flowchart LR
 ```
 
 $$
-\mathcal L=\sum_{i,t}\operatorname{BCE}(y_i,\sigma(f_{it}))
-+0.03\sum_{(i,t)\in E}\mathbf1(G_{it}\le0.25)(f_{it}-f_{i,t-1})^2.
+\mathcal{L}=\sum_{i,t}\mathrm{BCE}(y_i,\sigma(f_{it}))
++0.03\sum_{(i,t)\in E}\mathbf{1}(G_{it}\le0.25)(f_{it}-f_{i,t-1})^2.
 $$
 
 Edges connect consecutive natural months for the same customer. Non-stable rows still contribute to the classification loss. The final feature-state definition and Q25 gate were frozen before the formal holdout model results were observed.
