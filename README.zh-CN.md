@@ -18,13 +18,12 @@
 | Platt后 Log Loss 相对变化 | **+0.4320%** |
 | Platt后 Brier 相对变化 | **+0.2451%** |
 
-五项预先冻结的留出验收条件均满足。概率损失和响应幅度的代价与稳定性收益一并报告。这不是比赛榜单成绩，也不代表所有指标全面提升。
+五项预先冻结的留出验收条件均满足。概率损失和响应幅度的代价与稳定性收益一并报告。
 
 ![开发与留出效应对照](assets/effect_comparison.png)
 
 图来自冻结汇总表；动态指标使用校准前 raw score，末期预测一人一次。完整数表、2,000次客户级配对bootstrap区间和来源哈希见[结果说明](docs/results.md)。
 
-## 招聘者可以从哪里看能力
 
 | 能力 | 项目中的证据入口 |
 |---|---|
@@ -35,7 +34,6 @@
 | 模型治理与解释 | 核心冻结、独立概率校准、OOF动态SHAP、锁定留出验证 |
 | 工程质量 | 合成演示、单元测试、来源清单、公开包白名单检查 |
 
-这里列的是项目证据。个人负责范围和合作贡献将在作者确认后明确列出，不默认全部独立完成。
 
 ## 三分钟查看方法
 
@@ -68,6 +66,6 @@ Stable／High表示输入变化程度，不表示风险高低。留出验证仍�
 
 ## 公开范围
 
-本候选包不含原始数据、客户ID、逐行预测、模型文件、第三方论文全文和未发表论文全文。数据应由读者通过[原始比赛页面](https://www.kaggle.com/competitions/amex-default-prediction)按适用条款自行获取。
+本候选包不含原始数据,数据应由读者通过[原始比赛页面](https://www.kaggle.com/competitions/amex-default-prediction)按适用条款自行获取。
 
-代码采用 [MIT许可证](LICENSE)，授权范围见 [NOTICE](NOTICE.md)。维护账号为 [zwxzwxzwxlalala-cell](https://github.com/zwxzwxzwxlalala-cell)。本版定位为v0.1.0项目展示：合成演示、正式汇总证据与研究代码阅读快照。作者署名与个人贡献确认后再补充。
+代码采用 [MIT许可证](LICENSE)，授权范围见 [NOTICE](NOTICE.md)。维护账号为 [zwxzwxzwxlalala-cell](https://github.com/zwxzwxzwxlalala-cell)。
